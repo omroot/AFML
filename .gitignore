@@ -1,0 +1,21 @@
+# IDE
+.vscode/
+__pycharm__
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and environment
+*.log
+*.env
+*.bat
+
+# Large binary files (except data/)
+*.parquet
+*.pickle
+*.pkl
+
+# Allow CSV files in data/ directory
+!data/
+!data/**/*.csv
